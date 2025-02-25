@@ -1,1486 +1,1433 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BNX</title>
-    <link rel="stylesheet" href="/style/reset.css" />
-    <link rel="stylesheet" href="/style/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
-  </head>
-  <body>
-    <div class="main">
-      <header class="header">
-        <div class="container h_container">
-          <a href="#" class="logo_wrap">
-            <h1 class="logo">
-              <img src="/img/logo.png" alt="BNX 로고" class="logo_img" />
-            </h1>
-          </a>
-          <div class="language">
-            <button type="button" class="lang_k on" data-lang="kor">KOR</button>
-            <button type="button" class="lang_e" data-lang="eng">ENG</button>
-          </div>
-        </div>
-      </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BNX</title>
+        <link rel="stylesheet" href="/style/reset.css" />
+        <link rel="stylesheet" href="/style/style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <header class="header">
+                <div class="container h_container">
+                    <a href="#" class="logo_wrap">
+                        <h1 class="logo">
+                            <img src="/img/logo.png" alt="BNX 로고" class="logo_img" />
+                        </h1>
+                    </a>
+                    <div class="language">
+                        <button type="button" class="lang_k on" data-lang="kor">KOR</button>
+                        <button type="button" class="lang_e" data-lang="eng">ENG</button>
+                    </div>
+                </div>
+            </header>
 
-      <!-- Hero -->
-      <section class="hero">
-        <!-- <img src="/img/section_bg1.png" alt="" class="hero_bg1" /> -->
-        <div class="banner">
-          <div class="bg bg1 on"></div>
-          <div class="bg bg2"></div>
-          <div class="bg bg3"></div>
-        </div>
+            <!-- Hero -->
+            <section class="hero">
+                <!-- <img src="/img/section_bg1.png" alt="" class="hero_bg1" /> -->
+                <div class="banner">
+                    <div class="bg bg1 on"></div>
+                    <div class="bg bg2"></div>
+                    <div class="bg bg3"></div>
+                </div>
 
-        <div class="content kor">
-          <div class="inner">
-            <img src="/img/symbol.png" alt="심볼" class="symbol" />
-            <p>
-              BONDX 백서 홈페이지는 사용자 중심의 실제적인 블록체인 결제
-              시스템을 강조하며,
-              <br /><br />투자자와 사용자에게 프로젝트의 가치를 명확하게
-              전달하는 것을 목표로 합니다.
-            </p>
-            <button type="button">
-              <img
-                src="/img/downLoad_i.png"
-                alt="다운로드 아이콘"
-                class="download"
-              />
-              <span>Bond X_Whitepaper</span>
-            </button>
-          </div>
-        </div>
+                <div class="content kor">
+                    <div class="inner">
+                        <img src="/img/symbol.png" alt="심볼" class="symbol" />
+                        <p>
+                            BONDX 백서 홈페이지는 사용자 중심의 실제적인 블록체인 결제 시스템을 강조하며,
+                            <br /><br />투자자와 사용자에게 프로젝트의 가치를 명확하게 전달하는 것을 목표로 합니다.
+                        </p>
+                        <button type="button">
+                            <img src="/img/downLoad_i.png" alt="다운로드 아이콘" class="download" />
+                            <span>Bond X_Whitepaper</span>
+                        </button>
+                    </div>
+                </div>
 
-        <div class="content eng">
-          <div class="inner">
-            <img src="/img/symbol.png" alt="Symbol" class="symbol" />
-            <p>
-              BONDX is a blockchain-based global payment system designed for
-              fast and easy use by anyone.
-              <br /><br />
-              With a user-centric and practical technology, it aims to enable
-              real-time payments beyond borders.
-            </p>
-            <button type="button">
-              <img
-                src="/img/downLoad_i.png"
-                alt="Download Icon"
-                class="download"
-              />
-              <span>Bond X_Whitepaper</span>
-            </button>
-          </div>
-        </div>
-      </section>
+                <div class="content eng">
+                    <div class="inner">
+                        <img src="/img/symbol.png" alt="Symbol" class="symbol" />
+                        <p>
+                            BONDX is a blockchain-based global payment system designed for fast and easy use by anyone.
+                            <br />
+                            With a user-centric and practical technology, it aims to enable real-time payments beyond
+                            borders.
+                        </p>
+                        <button type="button">
+                            <img src="/img/downLoad_i.png" alt="Download Icon" class="download" />
+                            <span>Bond X_Whitepaper</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
 
-      <!-- About BONDX -->
-      <section class="about">
-        <div class="content kor">
-          <div class="container">
-            <div class="title">
-              <h2>About BONDX</h2>
-              <p>
-                기존 글로벌 결제 시스템의 문제점을 해결하기 위해<br />
-                BONDX는 사용자 중심의 실제적인 블록체인 결제 솔루션을
-                제공합니다.
-              </p>
-            </div>
-            <div class="wrap">
-              <div class="arrow_images">
-                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
-              </div>
+            <!-- About BONDX -->
+            <section class="about">
+                <div class="content kor">
+                    <div class="container">
+                        <div class="title">
+                            <h2>About BONDX</h2>
+                            <p>
+                                기존 글로벌 결제 시스템의 문제점을 해결하기 위해<br />
+                                BONDX는 사용자 중심의 실제적인 블록체인 결제 솔루션을 제공합니다.
+                            </p>
+                        </div>
+                        <div class="wrap">
+                            <div class="arrow_images">
+                                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
+                            </div>
 
-              <div class="ac_inner ai_problem">
-                <h3>기존 결제 시스템의 문제점</h3>
-                <div class="list">
-                  <h4>높은 국제 송금 수수료</h4>
-                  <h5>7%~10%의 수수료</h5>
-                </div>
-                <div class="list">
-                  <h4>느린 거래 속도</h4>
-                  <h5>약 2~5일 소요</h5>
-                </div>
-                <div class="list">
-                  <h4>중앙화된 시스템의 검열 및 해킹 위험</h4>
-                  <h5>&#32;</h5>
-                </div>
-              </div>
-              <div class="arrow_images">
-                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
-              </div>
-              <div class="m_arrow_images">
-                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
-              </div>
+                            <div class="ac_inner ai_problem">
+                                <h3>기존 결제 시스템의 문제점</h3>
+                                <div class="list">
+                                    <h4>높은 국제 송금 수수료</h4>
+                                    <h5>7%~10%의 수수료</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>느린 거래 속도</h4>
+                                    <h5>약 2~5일 소요</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>중앙화된 시스템의 검열 및 해킹 위험</h4>
+                                    <h5>&#32;</h5>
+                                </div>
+                            </div>
+                            <div class="arrow_images">
+                                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
+                            </div>
+                            <div class="m_arrow_images">
+                                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
+                            </div>
 
-              <div class="ac_inner ai_solution">
-                <h3>BONDX의 해결책</h3>
-                <div class="list">
-                  <h4>사용자 네트워크 실시간 최대 할인 제공</h4>
-                  <h5>BONDX 결제 시 즉각적인 비용 절감</h5>
+                            <div class="ac_inner ai_solution">
+                                <h3>BONDX의 해결책</h3>
+                                <div class="list">
+                                    <h4>사용자 네트워크 실시간 최대 할인 제공</h4>
+                                    <h5>BONDX 결제 시 즉각적인 비용 절감</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>3초 내 실시간 결제</h4>
+                                    <h5>BONDX 결제 시 즉각적인 비용 절감</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>모든 사용자 접근 가능</h4>
+                                    <h5>은행 계좌 없이 누구나 사용 가능</h5>
+                                </div>
+                            </div>
+                            <div class="arrow_images">
+                                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="list">
-                  <h4>3초 내 실시간 결제</h4>
-                  <h5>BONDX 결제 시 즉각적인 비용 절감</h5>
-                </div>
-                <div class="list">
-                  <h4>모든 사용자 접근 가능</h4>
-                  <h5>은행 계좌 없이 누구나 사용 가능</h5>
-                </div>
-              </div>
-              <div class="arrow_images">
-                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content eng">
-          <div class="container">
-            <div class="title">
-              <h2>About BONDX</h2>
-              <p>
-                BONDX is a user-centric and practical blockchain payment
-                solution designed to address the shortcomings<br />
-                of traditional global payment systems, such as high fees, slow
-                transactions, and centralized security risks.
-              </p>
-            </div>
-            <div class="wrap">
-              <div class="arrow_images">
-                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
-              </div>
+                <div class="content eng">
+                    <div class="container">
+                        <div class="title">
+                            <h2>About BONDX</h2>
+                            <p>
+                                BONDX is a user-centric and practical blockchain payment solution designed to address
+                                the shortcomings<br />
+                                of traditional global payment systems, such as high fees, slow transactions, and
+                                centralized security risks.
+                            </p>
+                        </div>
+                        <div class="wrap">
+                            <div class="arrow_images">
+                                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow1.png" alt="right arrow" class="ac_img" />
+                            </div>
 
-              <div class="ac_inner ai_problem">
-                <h3>Problems of Payment Systems</h3>
-                <div class="list">
-                  <h4>High International Remittance Fees</h4>
-                  <h5>Fees of 7%~10%</h5>
-                </div>
-                <div class="list">
-                  <h4>Slow Transaction Speeds</h4>
-                  <h5>2-5 days processing time</h5>
-                </div>
-                <div class="list">
-                  <h4>Centralized Systems to Censorship & Hacking Risks</h4>
-                </div>
-              </div>
-              <div class="arrow_images">
-                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
-              </div>
-              <div class="m_arrow_images">
-                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
-              </div>
+                            <div class="ac_inner ai_problem">
+                                <h3>Problems of Payment Systems</h3>
+                                <div class="list">
+                                    <h4>High International Remittance Fees</h4>
+                                    <h5>Fees of 7%~10%</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>Slow Transaction Speeds</h4>
+                                    <h5>2-5 days processing time</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>Centralized Systems to Censorship & Hacking Risks</h4>
+                                </div>
+                            </div>
+                            <div class="arrow_images">
+                                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow2.png" alt="right arrow" class="ac_img" />
+                            </div>
+                            <div class="m_arrow_images">
+                                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="m_ac_img" />
+                            </div>
 
-              <div class="ac_inner ai_solution">
-                <h3>BONDX’s Solutions</h3>
-                <div class="list">
-                  <h4>Max Discount in Real Time User Networks</h4>
-                  <h5>7Immediate cost savings on BONDX payments</h5>
+                            <div class="ac_inner ai_solution">
+                                <h3>BONDX’s Solutions</h3>
+                                <div class="list">
+                                    <h4>Max Discount in Real Time User Networks</h4>
+                                    <h5>7Immediate cost savings on BONDX payments</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>Real-Time Transactions Within 3Seconds</h4>
+                                    <h5>Built on BSC, expanding to its own mainnet</h5>
+                                </div>
+                                <div class="list">
+                                    <h4>Access For All Users</h4>
+                                    <h5>No bank account required for participation</h5>
+                                </div>
+                            </div>
+                            <div class="arrow_images">
+                                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
+                                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="list">
-                  <h4>Real-Time Transactions Within 3Seconds</h4>
-                  <h5>Built on BSC, expanding to its own mainnet</h5>
-                </div>
-                <div class="list">
-                  <h4>Access For All Users</h4>
-                  <h5>No bank account required for participation</h5>
-                </div>
-              </div>
-              <div class="arrow_images">
-                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
-                <img src="/img/arrow3.png" alt="right arrow" class="ac_img" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>
 
-      <!-- 기술스택 -->
-      <section class="stack">
-        <div class="content kor">
-          <div class="title">
-            <span></span>
-            <h2>기술 스택</h2>
-          </div>
+            <!-- 기술스택 -->
+            <section class="stack">
+                <div class="content kor">
+                    <div class="title">
+                        <span></span>
+                        <h2>기술 스택</h2>
+                    </div>
 
-          <div class="way">
-            <p>
-              Binance Smart Chain<br />
-              기반 시작
-            </p>
-            <img src="/img/stack.png" alt="" class="way_img1" />
-            <img src="/img/new_arr1.png" alt="" class="way_img1_m" />
-            <p>
-              오프체인 데이터 처리<br />
-              기술 적용
-            </p>
-            <img src="img/stack.png" alt="" class="way_img2" />
-            <img src="img/new_arr2.png" alt="" class="way_img2_m" />
-            <p>크로스체인 브릿지 지원<br />(이더리움, 솔라나, 폴리곤 등)</p>
-          </div>
-        </div>
-        <div class="content eng">
-          <div class="title">
-            <span></span>
-            <h2>Technology Stack</h2>
-          </div>
-          <div class="way">
-            <p>
-              Binance Smart Chain<br />
-              as the Initial Foundation
-            </p>
-            <img src="/img/stack.png" alt="" class="way_img1" />
-            <img src="/img/new_arr1.png" alt="" class="way_img1_m" />
-            <p>
-              Off-Chain Data<br />
-              Processing Technology
-            </p>
-            <img src="img/stack.png" alt="" class="way_img2" />
-            <img src="img/new_arr2.png" alt="" class="way_img2_m" />
-            <p>
-              Cross-Chain Bridge Support<br />
-              (Ethereum, Solana, Polygon, etc.)
-            </p>
-          </div>
-        </div>
-      </section>
+                    <div class="way">
+                        <p>
+                            Binance Smart Chain<br />
+                            기반 시작
+                        </p>
+                        <img src="/img/stack.png" alt="" class="way_img1" />
+                        <img src="/img/new_arr1.png" alt="" class="way_img1_m" />
+                        <p>
+                            오프체인 데이터 처리<br />
+                            기술 적용
+                        </p>
+                        <img src="img/stack.png" alt="" class="way_img2" />
+                        <img src="img/new_arr2.png" alt="" class="way_img2_m" />
+                        <p>크로스체인 브릿지 지원<br />(이더리움, 솔라나, 폴리곤 등)</p>
+                    </div>
+                </div>
+                <div class="content eng">
+                    <div class="title">
+                        <span></span>
+                        <h2>Technology Stack</h2>
+                    </div>
+                    <div class="way">
+                        <p>
+                            Binance Smart Chain<br />
+                            as the Initial Foundation
+                        </p>
+                        <img src="/img/stack.png" alt="" class="way_img1" />
+                        <img src="/img/new_arr1.png" alt="" class="way_img1_m" />
+                        <p>
+                            Off-Chain Data<br />
+                            Processing Technology
+                        </p>
+                        <img src="img/stack.png" alt="" class="way_img2" />
+                        <img src="img/new_arr2.png" alt="" class="way_img2_m" />
+                        <p>
+                            Cross-Chain Bridge Support<br />
+                            (Ethereum, Solana, Polygon, etc.)
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-      <!-- Core of BONDX -->
-      <section class="core">
-        <div class="content kor">
-          <div class="list">
-            <div class="item item_top">
-              <div class="core_con">
-                <h3>
-                  사용자 네트워크<br />
-                  실시간 최대 할인 제공
-                </h3>
-                <p>
-                  기존 결제 시스템 대비<br />
-                  최대 할인 혜택 적용
-                </p>
-              </div>
-            </div>
-            <div class="item item_title">
-              <div class="core_con">
-                <h2>Core of BONDX</h2>
-                <p>사용자를 위한 결제 솔루션</p>
-              </div>
-            </div>
-            <div class="item item_top">
-              <div class="core_con">
-                <h3>
-                  사용자가 직접<br />
-                  자산을 통제
-                </h3>
-                <p>
-                  중앙화된 금융기관 없이<br />
-                  탈중앙화 자산 소유권
-                </p>
-              </div>
-            </div>
-            <div class="item item_down">
-              <div class="core_con">
-                <h3>
-                  3초 내<br />
-                  글로벌 결제
-                </h3>
-                <p>
-                  기존 금융 시스템보다<br />
-                  10배 빠른 속도 제공
-                </p>
-              </div>
-            </div>
-            <div class="item item_down">
-              <div class="core_con">
-                <h3>
-                  모바일 중심의 직관적인<br />
-                  결제 시스템 UX/UI
-                </h3>
-                <p>
-                  앱 하나로 암호화폐<br />
-                  변환, 결제, 송금까지 해결
-                </p>
-              </div>
-            </div>
-            <div class="item item_down">
-              <div class="core_con">
-                <h3>
-                  전 세계 어디서나<br />
-                  사용 가능
-                </h3>
-                <p>
-                  온·오프라인 결제 통합<br />
-                  → QR코드, 키오스크, 신용카드 지원
-                </p>
-              </div>
-            </div>
-          </div>
+            <!-- Core of BONDX -->
+            <section class="core">
+                <div class="content kor">
+                    <div class="list">
+                        <div class="item item_top">
+                            <div class="core_con">
+                                <h3>
+                                    사용자 네트워크<br />
+                                    실시간 최대 할인 제공
+                                </h3>
+                                <p>
+                                    기존 결제 시스템 대비<br />
+                                    최대 할인 혜택 적용
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_title">
+                            <div class="core_con">
+                                <h2>Core of BONDX</h2>
+                                <p>사용자를 위한 결제 솔루션</p>
+                            </div>
+                        </div>
+                        <div class="item item_top">
+                            <div class="core_con">
+                                <h3>
+                                    사용자가 직접<br />
+                                    자산을 통제
+                                </h3>
+                                <p>
+                                    중앙화된 금융기관 없이<br />
+                                    탈중앙화 자산 소유권
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_down">
+                            <div class="core_con">
+                                <h3>
+                                    3초 내<br />
+                                    글로벌 결제
+                                </h3>
+                                <p>
+                                    기존 금융 시스템보다<br />
+                                    10배 빠른 속도 제공
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_down">
+                            <div class="core_con">
+                                <h3>
+                                    모바일 중심의 직관적인<br />
+                                    결제 시스템 UX/UI
+                                </h3>
+                                <p>
+                                    앱 하나로 암호화폐<br />
+                                    변환, 결제, 송금까지 해결
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_down">
+                            <div class="core_con">
+                                <h3>
+                                    전 세계 어디서나<br />
+                                    사용 가능
+                                </h3>
+                                <p>
+                                    온·오프라인 결제 통합<br />
+                                    → QR코드, 키오스크, 신용카드 지원
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-          <div class="m_list">
-            <img src="/img/core_m_bg.png" alt="" />
-            <div class="item_wrap">
-              <div class="item item_title">
-                <div class="core_con">
-                  <h2>Core of BONDX</h2>
-                  <p>사용자를 위한<br />결제 솔루션</p>
+                    <div class="m_list">
+                        <img src="/img/core_m_bg.png" alt="" />
+                        <div class="item_wrap">
+                            <div class="item item_title">
+                                <div class="core_con">
+                                    <h2>Core of BONDX</h2>
+                                    <p>사용자를 위한<br />결제 솔루션</p>
+                                </div>
+                            </div>
+                            <div class="item item_top">
+                                <div class="core_con">
+                                    <h3>
+                                        사용자 네트워크<br />
+                                        실시간 최대 할인 제공
+                                    </h3>
+                                    <p>
+                                        기존 결제 시스템 대비<br />
+                                        최대 할인 혜택 적용
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_down">
+                                <div class="core_con">
+                                    <h3>
+                                        3초 내<br />
+                                        글로벌 결제
+                                    </h3>
+                                    <p>
+                                        기존 금융 시스템보다<br />
+                                        10배 빠른 속도 제공
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_down">
+                                <div class="core_con">
+                                    <h3>
+                                        모바일 중심의 직관적인<br />
+                                        결제 시스템 UX/UI
+                                    </h3>
+                                    <p>
+                                        앱 하나로 암호화폐<br />
+                                        변환, 결제, 송금까지 해결
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_top">
+                                <div class="core_con">
+                                    <h3>
+                                        사용자가 직접<br />
+                                        자산을 통제
+                                    </h3>
+                                    <p>
+                                        중앙화된 금융기관 없이<br />
+                                        탈중앙화 자산 소유권
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_down">
+                                <div class="core_con">
+                                    <h3>
+                                        전 세계 어디서나<br />
+                                        사용 가능
+                                    </h3>
+                                    <p>
+                                        온·오프라인 결제 통합<br />
+                                        → QR코드, 키오스크, 신용카드 지원
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="item item_top">
-                <div class="core_con">
-                  <h3>
-                    사용자 네트워크<br />
-                    실시간 최대 할인 제공
-                  </h3>
-                  <p>
-                    기존 결제 시스템 대비<br />
-                    최대 할인 혜택 적용
-                  </p>
-                </div>
-              </div>
-              <div class="item item_down">
-                <div class="core_con">
-                  <h3>
-                    3초 내<br />
-                    글로벌 결제
-                  </h3>
-                  <p>
-                    기존 금융 시스템보다<br />
-                    10배 빠른 속도 제공
-                  </p>
-                </div>
-              </div>
-              <div class="item item_down">
-                <div class="core_con">
-                  <h3>
-                    모바일 중심의 직관적인<br />
-                    결제 시스템 UX/UI
-                  </h3>
-                  <p>
-                    앱 하나로 암호화폐<br />
-                    변환, 결제, 송금까지 해결
-                  </p>
-                </div>
-              </div>
-              <div class="item item_top">
-                <div class="core_con">
-                  <h3>
-                    사용자가 직접<br />
-                    자산을 통제
-                  </h3>
-                  <p>
-                    중앙화된 금융기관 없이<br />
-                    탈중앙화 자산 소유권
-                  </p>
-                </div>
-              </div>
-              <div class="item item_down">
-                <div class="core_con">
-                  <h3>
-                    전 세계 어디서나<br />
-                    사용 가능
-                  </h3>
-                  <p>
-                    온·오프라인 결제 통합<br />
-                    → QR코드, 키오스크, 신용카드 지원
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content eng">
-          <div class="list">
-            <div class="item item_top">
-              <div class="core_con">
-                <h3>
-                  Real-time maximum discount<br />
-                  through the user network
-                </h3>
-                <p>
-                  Enjoy the highest possible discount<br />
-                  compared to traditional payment systems.
-                </p>
-              </div>
-            </div>
-            <div class="item item_title">
-              <div class="core_con">
-                <h3>Core of BONDX</h3>
-                <p>A Payment Solution Built for Users</p>
-              </div>
-            </div>
-            <div class="item item_top">
-              <div class="core_con">
-                <h3>
-                  Users retain full control<br />
-                  over their assets
-                </h3>
-                <p>
-                  Decentralized asset ownership without<br />
-                  reliance on centralized financial institutions.
-                </p>
-              </div>
-            </div>
-            <div class="item item_down">
-              <div class="core_con">
-                <h3>
-                  Real-time global transactions<br />
-                  within 3 seconds
-                </h3>
-                <p>
-                  10x faster than traditional<br />
-                  financial systems.
-                </p>
-              </div>
-            </div>
-            <div class="item item_down">
-              <div class="core_con">
-                <h3>
-                  Mobile-first, intuitive<br />
-                  payment system UX/UI
-                </h3>
-                <p>
-                  One app for seamless cryptocurrency<br />
-                  conversion, payments, and remittances.
-                </p>
-              </div>
-            </div>
-            <div class="item item_down">
-              <div class="core_con">
-                <h3>
-                  Usable anywhere<br />
-                  in the world
-                </h3>
-                <p>
-                  Integrated online and offline payments<br />
-                  → QR code, kiosks, and credit card support.
-                </p>
-              </div>
-            </div>
-          </div>
+                <div class="content eng">
+                    <div class="list">
+                        <div class="item item_top">
+                            <div class="core_con">
+                                <h3>
+                                    Real-time maximum discount<br />
+                                    through the user network
+                                </h3>
+                                <p>
+                                    Enjoy the highest possible discount<br />
+                                    compared to traditional payment systems.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_title">
+                            <div class="core_con">
+                                <h3>Core of BONDX</h3>
+                                <p>A Payment Solution Built for Users</p>
+                            </div>
+                        </div>
+                        <div class="item item_top">
+                            <div class="core_con">
+                                <h3>
+                                    Users retain full control<br />
+                                    over their assets
+                                </h3>
+                                <p>
+                                    Decentralized asset ownership without<br />
+                                    reliance on centralized financial institutions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_down">
+                            <div class="core_con">
+                                <h3>
+                                    Real-time global transactions<br />
+                                    within 3 seconds
+                                </h3>
+                                <p>
+                                    10x faster than traditional<br />
+                                    financial systems.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_down">
+                            <div class="core_con">
+                                <h3>
+                                    Mobile-first, intuitive<br />
+                                    payment system UX/UI
+                                </h3>
+                                <p>
+                                    One app for seamless cryptocurrency<br />
+                                    conversion, payments, and remittances.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item item_down">
+                            <div class="core_con">
+                                <h3>
+                                    Usable anywhere<br />
+                                    in the world
+                                </h3>
+                                <p>
+                                    Integrated online and offline payments<br />
+                                    → QR code, kiosks, and credit card support.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-          <div class="m_list">
-            <img src="/img/core_m_bg.png" alt="" />
-            <div class="item_wrap">
-              <div class="item item_title">
-                <div class="core_con">
-                  <h2>Core of BONDX</h2>
-                  <p>A Payment Solution Built for Users</p>
+                    <div class="m_list">
+                        <img src="/img/core_m_bg.png" alt="" />
+                        <div class="item_wrap">
+                            <div class="item item_title">
+                                <div class="core_con">
+                                    <h2>Core of BONDX</h2>
+                                    <p>A Payment Solution Built for Users</p>
+                                </div>
+                            </div>
+                            <div class="item item_top">
+                                <div class="core_con">
+                                    <h3>
+                                        Real-time maximum discount<br />
+                                        through the user network
+                                    </h3>
+                                    <p>
+                                        Enjoy the highest possible discount<br />
+                                        compared to traditional payment systems.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_down">
+                                <div class="core_con">
+                                    <h3>
+                                        Real-time global transactions<br />
+                                        within 3 seconds
+                                    </h3>
+                                    <p>
+                                        10x faster than traditional<br />
+                                        financial systems.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_down">
+                                <div class="core_con">
+                                    <h3>
+                                        Mobile-first, intuitive<br />
+                                        payment system UX/UI
+                                    </h3>
+                                    <p>
+                                        One app for seamless cryptocurrency<br />
+                                        conversion, payments, and remittances.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_top">
+                                <div class="core_con">
+                                    <h3>
+                                        Usable anywhere<br />
+                                        in the world
+                                    </h3>
+                                    <p>
+                                        Integrated online and offline payments<br />
+                                        → QR code, kiosks, and credit card support.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item item_down">
+                                <div class="core_con">
+                                    <h3>
+                                        Users retain full control<br />
+                                        over their assets
+                                    </h3>
+                                    <p>
+                                        Decentralized asset ownership without<br />
+                                        reliance on centralized financial institutions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="item item_top">
-                <div class="core_con">
-                  <h3>
-                    Real-time maximum discount<br />
-                    through the user network
-                  </h3>
-                  <p>
-                    Enjoy the highest possible discount<br />
-                    compared to traditional payment systems.
-                  </p>
-                </div>
-              </div>
-              <div class="item item_down">
-                <div class="core_con">
-                  <h3>
-                    Real-time global transactions<br />
-                    within 3 seconds
-                  </h3>
-                  <p>
-                    10x faster than traditional<br />
-                    financial systems.
-                  </p>
-                </div>
-              </div>
-              <div class="item item_down">
-                <div class="core_con">
-                  <h3>
-                    Mobile-first, intuitive<br />
-                    payment system UX/UI
-                  </h3>
-                  <p>
-                    One app for seamless cryptocurrency<br />
-                    conversion, payments, and remittances.
-                  </p>
-                </div>
-              </div>
-              <div class="item item_top">
-                <div class="core_con">
-                  <h3>
-                    Usable anywhere<br />
-                    in the world
-                  </h3>
-                  <p>
-                    Integrated online and offline payments<br />
-                    → QR code, kiosks, and credit card support.
-                  </p>
-                </div>
-              </div>
-              <div class="item item_down">
-                <div class="core_con">
-                  <h3>
-                    Users retain full control<br />
-                    over their assets
-                  </h3>
-                  <p>
-                    Decentralized asset ownership without<br />
-                    reliance on centralized financial institutions.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>
 
-      <!-- Core of BONDX MOBILE -->
-      <section class="m_core">
-        <div class="content kor">
-          <div class="mc_item_wrap">
-            <div class="mc_item mc_item_ti">
-              <div class="mc_con">
-                <h3 class="ti">Core of BONDX</h3>
-                <p>
-                  사용자를 위한<br />
-                  결제 솔루션
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_right">
-              <div class="mc_con">
-                <h3>
-                  사용자 네트워크<br />
-                  실시간 최대 할인 제공
-                </h3>
-                <p>
-                  기존 결제 시스템 대비<br />
-                  최대 할인 혜택 적용
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_left">
-              <div class="mc_con">
-                <h3>
-                  3초 내<br />
-                  글로벌 결제
-                </h3>
-                <p>
-                  기존 금융 시스템보다<br />
-                  10배 빠른 속도 제공
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_right">
-              <div class="mc_con">
-                <h3>
-                  모바일 중심의 직관적인<br />
-                  결제 시스템 UI/UX
-                </h3>
-                <p>
-                  앱 하나로 암호화폐<br />
-                  변환, 결제, 송금까지 해결
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_left">
-              <div class="mc_con">
-                <h3>
-                  사용자가 직접<br />
-                  자산을 통제
-                </h3>
-                <p>
-                  중앙화된 금융기관 없이<br />
-                  탈중앙화 자산 소유권
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_right">
-              <div class="mc_con">
-                <h3>
-                  전 세계 어디서나<br />
-                  사용 가능
-                </h3>
-                <p>
-                  온·오프라인 결제 통합<br />
-                  → QR코드, 키오스크,<br />
-                  신용카드 지원
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content eng">
-          <div class="mc_item_wrap">
-            <div class="mc_item mc_item_ti">
-              <div class="mc_con">
-                <h3 class="ti">Core of BONDX</h3>
-                <p>
-                  A Payment Solution <br />
-                  Built for Users
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_right">
-              <div class="mc_con">
-                <h3>
-                  Real-time maximum <br />
-                  discount through <br />
-                  the user network <br />
-                </h3>
-                <p>
-                  Enjoy the highest possible <br />
-                  discount compared to <br />
-                  traditional payment <br />
-                  systems.
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_left">
-              <div class="mc_con">
-                <h3>
-                  Real-time global<br />
-                  transactions<br />
-                  within 3 seconds
-                </h3>
-                <p>
-                  10x faster than<br />
-                  traditional financial<br />
-                  systems.
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_right">
-              <div class="mc_con">
-                <h3>
-                  Mobile-first,<br />
-                  intuitive payment<br />
-                  system UX/UI
-                </h3>
-                <p>
-                  One app for seamless<br />
-                  cryptocurrency conversion,<br />
-                  payments, and remittances.
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_left">
-              <div class="mc_con">
-                <h3>
-                  Usable anywhere<br />
-                  in the world
-                </h3>
-                <p>
-                  Integrated online and<br />
-                  offline payments<br />
-                  → QR code, kiosks, and<br />
-                  credit card support.
-                </p>
-              </div>
-            </div>
-            <div class="mc_item mci_right">
-              <div class="mc_con">
-                <h3>
-                  Users retain full control <br />
-                  over their assets
-                </h3>
-                <p>
-                  Decentralized asset<br />
-                  ownership without reliance<br />
-                  on centralized financial<br />
-                  institutions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            <!-- Core of BONDX MOBILE -->
+            <section class="m_core">
+                <div class="content kor">
+                    <div class="mc_item_wrap">
+                        <div class="mc_item mc_item_ti">
+                            <div class="mc_con">
+                                <h3 class="ti">Core of BONDX</h3>
+                                <p>
+                                    사용자를 위한<br />
+                                    결제 솔루션
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_right">
+                            <div class="mc_con">
+                                <h3>
+                                    사용자 네트워크<br />
+                                    실시간 최대 할인 제공
+                                </h3>
+                                <p>
+                                    기존 결제 시스템 대비<br />
+                                    최대 할인 혜택 적용
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_left">
+                            <div class="mc_con">
+                                <h3>
+                                    3초 내<br />
+                                    글로벌 결제
+                                </h3>
+                                <p>
+                                    기존 금융 시스템보다<br />
+                                    10배 빠른 속도 제공
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_right">
+                            <div class="mc_con">
+                                <h3>
+                                    모바일 중심의 직관적인<br />
+                                    결제 시스템 UI/UX
+                                </h3>
+                                <p>
+                                    앱 하나로 암호화폐<br />
+                                    변환, 결제, 송금까지 해결
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_left">
+                            <div class="mc_con">
+                                <h3>
+                                    사용자가 직접<br />
+                                    자산을 통제
+                                </h3>
+                                <p>
+                                    중앙화된 금융기관 없이<br />
+                                    탈중앙화 자산 소유권
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_right">
+                            <div class="mc_con">
+                                <h3>
+                                    전 세계 어디서나<br />
+                                    사용 가능
+                                </h3>
+                                <p>
+                                    온·오프라인 결제 통합<br />
+                                    → QR코드, 키오스크,<br />
+                                    신용카드 지원
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content eng">
+                    <div class="mc_item_wrap">
+                        <div class="mc_item mc_item_ti">
+                            <div class="mc_con">
+                                <h3 class="ti">Core of BONDX</h3>
+                                <p>
+                                    A Payment Solution <br />
+                                    Built for Users
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_right">
+                            <div class="mc_con">
+                                <h3>
+                                    Real-time maximum <br />
+                                    discount through <br />
+                                    the user network <br />
+                                </h3>
+                                <p>
+                                    Enjoy the highest possible <br />
+                                    discount compared to <br />
+                                    traditional payment <br />
+                                    systems.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_left">
+                            <div class="mc_con">
+                                <h3>
+                                    Real-time global<br />
+                                    transactions<br />
+                                    within 3 seconds
+                                </h3>
+                                <p>
+                                    10x faster than<br />
+                                    traditional financial<br />
+                                    systems.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_right">
+                            <div class="mc_con">
+                                <h3>
+                                    Mobile-first,<br />
+                                    intuitive payment<br />
+                                    system UX/UI
+                                </h3>
+                                <p>
+                                    One app for seamless<br />
+                                    cryptocurrency conversion,<br />
+                                    payments, and remittances.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_left">
+                            <div class="mc_con">
+                                <h3>
+                                    Usable anywhere<br />
+                                    in the world
+                                </h3>
+                                <p>
+                                    Integrated online and<br />
+                                    offline payments<br />
+                                    → QR code, kiosks, and<br />
+                                    credit card support.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mc_item mci_right">
+                            <div class="mc_con">
+                                <h3>
+                                    Users retain full control <br />
+                                    over their assets
+                                </h3>
+                                <p>
+                                    Decentralized asset<br />
+                                    ownership without reliance<br />
+                                    on centralized financial<br />
+                                    institutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-      <!-- 수익모델 -->
-      <section class="revenue">
-        <div class="content kor">
-          <div class="container">
-            <h2>수익모델</h2>
-            <div class="item_wrap">
-              <div class="left">
-                <div class="item">
-                  <span class="number">01</span>
-                  <div class="text">
-                    <h3>거래 수수료</h3>
-                    <ul>
-                      <li>
-                        BONDX 결제 시 사용자 네트워크 실시간 최대 할인 제공
-                      </li>
-                      <li>기존 금융 시스템 대비 초저가 수수료 적용</li>
-                      <li>토큰 보유자에게 추가적인 비용 절감 기회 제공</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <span class="number">02</span>
-                  <div class="text">
-                    <h3>프리미엄 서비스 및 멤버십</h3>
-                    <ul>
-                      <li>
-                        NFT 기반 BONDX 신용카드<br />
-                        <span
-                          >- VIP 혜택 제공 (수수료 면제, 보너스 리워드)</span
-                        >
-                      </li>
-                      <li>
-                        맞춤형 데이터 분석 서비스<br />
-                        <span>
-                          - 글로벌 결제 데이터 제공 (기업 및 기관용)
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="right">
-                <div class="item">
-                  <span class="number">03</span>
-                  <div class="text">
-                    <h3>DeFi 기반 유동성 공급 및 스테이킹 수익</h3>
-                    <ul>
-                      <li>
-                        BONDX 스테이킹 프로그램<br />
-                        <span>- 보유자에게 추가 리워드 지급</span>
-                      </li>
-                      <li>
-                        유동성 풀 운영 수익<br />
-                        <span>- DEX 및 CEX에서 유동성 제공</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <span class="number">04</span>
-                  <div class="text">
-                    <h3>글로벌 결제 파트너십</h3>
-                    <ul>
-                      <li>
-                        VISA, Mastercard, Paypal 등과 협력하여 암호화폐 결제
-                        확산
-                      </li>
-                      <li>
-                        전자상거래 및 핀테크 기업과의 파트너십으로 거래량 확대
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <span class="number">05</span>
-                  <div class="text">
-                    <h3>크로스체인 브릿지 및 디지털 자산 변환</h3>
-                    <ul>
-                      <li>암호화폐 → BONDX 변환 시 수수료 부과</li>
-                      <li>크로스체인 브릿지를 통한 다양한 네트워크 지원</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <!-- 수익모델 -->
+            <section class="revenue">
+                <div class="content kor">
+                    <div class="container">
+                        <h2>수익모델</h2>
+                        <div class="item_wrap">
+                            <div class="left">
+                                <div class="item">
+                                    <span class="number">01</span>
+                                    <div class="text">
+                                        <h3>거래 수수료</h3>
+                                        <ul>
+                                            <li>BONDX 결제 시 사용자 네트워크 실시간 최대 할인 제공</li>
+                                            <li>기존 금융 시스템 대비 초저가 수수료 적용</li>
+                                            <li>토큰 보유자에게 추가적인 비용 절감 기회 제공</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span class="number">02</span>
+                                    <div class="text">
+                                        <h3>프리미엄 서비스 및 멤버십</h3>
+                                        <ul>
+                                            <li>
+                                                NFT 기반 BONDX 신용카드<br />
+                                                <span>- VIP 혜택 제공 (수수료 면제, 보너스 리워드)</span>
+                                            </li>
+                                            <li>
+                                                맞춤형 데이터 분석 서비스<br />
+                                                <span> - 글로벌 결제 데이터 제공 (기업 및 기관용) </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="item">
+                                    <span class="number">03</span>
+                                    <div class="text">
+                                        <h3>DeFi 기반 유동성 공급 및 스테이킹 수익</h3>
+                                        <ul>
+                                            <li>
+                                                BONDX 스테이킹 프로그램<br />
+                                                <span>- 보유자에게 추가 리워드 지급</span>
+                                            </li>
+                                            <li>
+                                                유동성 풀 운영 수익<br />
+                                                <span>- DEX 및 CEX에서 유동성 제공</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span class="number">04</span>
+                                    <div class="text">
+                                        <h3>글로벌 결제 파트너십</h3>
+                                        <ul>
+                                            <li>VISA, Mastercard, Paypal 등과 협력하여 암호화폐 결제 확산</li>
+                                            <li>전자상거래 및 핀테크 기업과의 파트너십으로 거래량 확대</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span class="number">05</span>
+                                    <div class="text">
+                                        <h3>크로스체인 브릿지 및 디지털 자산 변환</h3>
+                                        <ul>
+                                            <li>암호화폐 → BONDX 변환 시 수수료 부과</li>
+                                            <li>크로스체인 브릿지를 통한 다양한 네트워크 지원</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="m_item_wrap">
-              <div class="item">
+                        <div class="m_item_wrap">
+                            <div class="item">
+                                <div class="top">
+                                    <span class="number">01</span>
+                                    <h3>거래 수수료</h3>
+                                </div>
+                                <div class="text">
+                                    <ul>
+                                        <li>BONDX 결제 시 사용자 네트워크 실시간 최대 할인 제공</li>
+                                        <li>기존 금융 시스템 대비 초저가 수수료 적용</li>
+                                        <li>토큰 보유자에게 추가적인 비용 절감 기회 제공</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="top">
+                                    <span class="number">02</span>
+                                    <h3>프리미엄 서비스 및 멤버십</h3>
+                                </div>
+                                <div class="text">
+                                    <ul>
+                                        <li>
+                                            NFT 기반 BONDX 신용카드<br />
+                                            <span>- VIP 혜택 제공 (수수료 면제, 보너스 리워드)</span>
+                                        </li>
+                                        <li>
+                                            맞춤형 데이터 분석 서비스<br />
+                                            <span> - 글로벌 결제 데이터 제공 (기업 및 기관용) </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="top">
+                                    <span class="number">03</span>
+                                    <h3>DeFi 기반 유동성 공급 및 스테이킹 수익</h3>
+                                </div>
+                                <div class="text">
+                                    <ul>
+                                        <li>
+                                            BONDX 스테이킹 프로그램<br />
+                                            <span>- 보유자에게 추가 리워드 지급</span>
+                                        </li>
+                                        <li>
+                                            유동성 풀 운영 수익<br />
+                                            <span>- DEX 및 CEX에서 유동성 제공</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="top">
+                                    <span class="number">04</span>
+                                    <h3>글로벌 결제 파트너십</h3>
+                                </div>
+                                <div class="text">
+                                    <ul>
+                                        <li>VISA, Mastercard, Paypal 등과 협력하여 암호화폐 결제 확산</li>
+                                        <li>전자상거래 및 핀테크 기업과의 파트너십으로 거래량 확대</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="top">
+                                    <span class="number">05</span>
+                                    <h3>크로스체인 브릿지 및 디지털 자산 변환</h3>
+                                </div>
+                                <div class="text">
+                                    <ul>
+                                        <li>암호화폐 → BONDX 변환 시 수수료 부과</li>
+                                        <li>크로스체인 브릿지를 통한 다양한 네트워크 지원</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content eng">
+                    <div class="container">
+                        <h2>Revenue Model</h2>
+                        <div class="item_wrap">
+                            <div class="left">
+                                <div class="item">
+                                    <span class="number">01</span>
+                                    <div class="text">
+                                        <h3>Transaction Fees</h3>
+                                        <ul>
+                                            <li>
+                                                Real-time maximum discount through the user<br />
+                                                network on BONDX payments
+                                            </li>
+                                            <li>Ultra-low fees compared to traditional financial systems</li>
+                                            <li>Additional cost-saving opportunities for token holders</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span class="number">02</span>
+                                    <div class="text">
+                                        <h3>Premium Services & Memberships</h3>
+                                        <ul>
+                                            <li>
+                                                NFT-based BONDX Credit Card <br />
+                                                <span>VIP benefits (fee exemptions, bonus rewards)</span>
+                                            </li>
+                                            <li>
+                                                Customized data analysis services<br />
+                                                <span>
+                                                    Providing global payment data for enterprises & institutions
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="item">
+                                    <span class="number">03</span>
+                                    <div class="text">
+                                        <h3>DeFi-Based Liquidity Provision & Staking Rewards</h3>
+                                        <ul>
+                                            <li>
+                                                BONDX staking program<br />
+                                                <span>- Additional rewards for token holders</span>
+                                            </li>
+                                            <li>
+                                                Liquidity pool revenue<br />
+                                                <span>- Participation in DEX & CEX liquidity provision</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span class="number">04</span>
+                                    <div class="text">
+                                        <h3>Global Payment Partnerships</h3>
+                                        <ul>
+                                            <li>
+                                                Partnerships with Visa, Mastercard, PayPal for<br />
+                                                cryptocurrency payment adoption
+                                            </li>
+                                            <li>
+                                                Collaboration with e-commerce and fintech firms<br />
+                                                to expand transaction volume
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span class="number">05</span>
+                                    <div class="text">
+                                        <h3>Cross-Chain Bridge & Digital Asset Conversion Fees</h3>
+                                        <ul>
+                                            <li>
+                                                Transaction fees applied when converting <br />
+                                                cryptocurrencies to BONDX
+                                            </li>
+                                            <li>
+                                                Cross-chain bridge enabling multi-network <br />
+                                                interoperability
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="m_item_wrap">
+                            <div class="left">
+                                <div class="item">
+                                    <div class="top">
+                                        <span class="number">01</span>
+                                        <h3>Transaction Fees</h3>
+                                    </div>
+                                    <div class="text">
+                                        <ul>
+                                            <li>
+                                                Real-time maximum discount through the user<br />
+                                                network on BONDX payments
+                                            </li>
+                                            <li>Ultra-low fees compared to traditional financial systems</li>
+                                            <li>Additional cost-saving opportunities for token holders</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="top">
+                                        <span class="number">02</span>
+                                        <h3>Premium Services & Memberships</h3>
+                                    </div>
+                                    <div class="text">
+                                        <ul>
+                                            <li>
+                                                NFT-based BONDX Credit Card <br />
+                                                <span>VIP benefits (fee exemptions, bonus rewards)</span>
+                                            </li>
+                                            <li>
+                                                Customized data analysis services<br />
+                                                <span>
+                                                    Providing global payment data for enterprises & institutions
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="item">
+                                    <div class="top">
+                                        <span class="number">03</span>
+                                        <h3>DeFi-Based Liquidity Provision & Staking Rewards</h3>
+                                    </div>
+
+                                    <div class="text">
+                                        <ul>
+                                            <li>
+                                                BONDX staking program<br />
+                                                <span>- Additional rewards for token holders</span>
+                                            </li>
+                                            <li>
+                                                Liquidity pool revenue<br />
+                                                <span>- Participation in DEX & CEX liquidity provision</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="top">
+                                        <span class="number">04</span>
+                                        <h3>Global Payment Partnerships</h3>
+                                    </div>
+                                    <div class="text">
+                                        <ul>
+                                            <li>
+                                                Partnerships with Visa, Mastercard, PayPal for<br />
+                                                cryptocurrency payment adoption
+                                            </li>
+                                            <li>
+                                                Collaboration with e-commerce and fintech firms<br />
+                                                to expand transaction volume
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="top">
+                                        <span class="number">05</span>
+                                        <h3>Cross-Chain Bridge & Digital Asset Conversion Fees</h3>
+                                    </div>
+                                    <div class="text">
+                                        <ul>
+                                            <li>
+                                                Transaction fees applied when converting <br />
+                                                cryptocurrencies to BONDX
+                                            </li>
+                                            <li>
+                                                Cross-chain bridge enabling multi-network <br />
+                                                interoperability
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 로드맵 -->
+            <section class="roadmap">
+                <img src="/img/roadmap_bg.png" alt="" />
+                <div class="content kor">
+                    <div class="container roadmap_wrap">
+                        <h2>로드맵</h2>
+                        <div class="item_wrap">
+                            <div class="item item1">
+                                <h3>2025 Q1-Q2</h3>
+                                <span class="bar"></span>
+                                <h4>개념 설계 & 초기 개발 (BSC 기반)</h4>
+                            </div>
+                            <div class="item item2">
+                                <h3>2025 Q3-Q4</h3>
+                                <span class="bar"></span>
+                                <h4>MVP 출시 & 베타 테스트</h4>
+                            </div>
+                            <div class="item item3">
+                                <h3>2026 Q1-Q2</h3>
+                                <span class="bar"></span>
+                                <h4>기능 확장 & 글로벌 파트너십 구축</h4>
+                            </div>
+                            <div class="item item4">
+                                <h3>2026 Q3-Q4</h3>
+                                <span class="bar"></span>
+                                <h4>자체 메인넷 개발 및 마이그레이션</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content eng">
+                    <div class="container roadmap_wrap">
+                        <h2>Roadmap</h2>
+                        <div class="item_wrap">
+                            <div class="item item1">
+                                <h3>2025 Q1-Q2</h3>
+                                <span class="bar"></span>
+                                <h4>Concept Design & Initial Development <br />(Built on BSC)</h4>
+                            </div>
+                            <div class="item item2">
+                                <h3>2025 Q3-Q4</h3>
+                                <span class="bar"></span>
+                                <h4>MVP Release & Beta Testing</h4>
+                            </div>
+                            <div class="item item3">
+                                <h3>2026 Q1-Q2</h3>
+                                <span class="bar"></span>
+
+                                <h4>
+                                    Feature Expansion &<br />
+                                    Global Partnership Development
+                                </h4>
+                            </div>
+                            <div class="item item4">
+                                <h3>2026 Q3-Q4</h3>
+                                <span class="bar"></span>
+                                <h4>Transition to Proprietary Mainnet</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
                 <div class="top">
-                  <span class="number">01</span>
-                  <h3>거래 수수료</h3>
+                    <button type="button" class="contact_btn">Contact</button>
+                    <div class="social">
+                        <button type="button">
+                            <img src="/img/social_i1.png" alt="소셜 아이콘" />
+                        </button>
+                        <button type="button">
+                            <img src="/img/social_i2.png" alt="소셜 아이콘" />
+                        </button>
+                    </div>
                 </div>
-                <div class="text">
-                  <ul>
-                    <li>BONDX 결제 시 사용자 네트워크 실시간 최대 할인 제공</li>
-                    <li>기존 금융 시스템 대비 초저가 수수료 적용</li>
-                    <li>토큰 보유자에게 추가적인 비용 절감 기회 제공</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="item">
-                <div class="top">
-                  <span class="number">02</span>
-                  <h3>프리미엄 서비스 및 멤버십</h3>
-                </div>
-                <div class="text">
-                  <ul>
-                    <li>
-                      NFT 기반 BONDX 신용카드<br />
-                      <span>- VIP 혜택 제공 (수수료 면제, 보너스 리워드)</span>
-                    </li>
-                    <li>
-                      맞춤형 데이터 분석 서비스<br />
-                      <span> - 글로벌 결제 데이터 제공 (기업 및 기관용) </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="item">
-                <div class="top">
-                  <span class="number">03</span>
-                  <h3>DeFi 기반 유동성 공급 및 스테이킹 수익</h3>
-                </div>
-                <div class="text">
-                  <ul>
-                    <li>
-                      BONDX 스테이킹 프로그램<br />
-                      <span>- 보유자에게 추가 리워드 지급</span>
-                    </li>
-                    <li>
-                      유동성 풀 운영 수익<br />
-                      <span>- DEX 및 CEX에서 유동성 제공</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="item">
-                <div class="top">
-                  <span class="number">04</span>
-                  <h3>글로벌 결제 파트너십</h3>
-                </div>
-                <div class="text">
-                  <ul>
-                    <li>
-                      VISA, Mastercard, Paypal 등과 협력하여 암호화폐 결제 확산
-                    </li>
-                    <li>
-                      전자상거래 및 핀테크 기업과의 파트너십으로 거래량 확대
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="item">
-                <div class="top">
-                  <span class="number">05</span>
-                  <h3>크로스체인 브릿지 및 디지털 자산 변환</h3>
-                </div>
-                <div class="text">
-                  <ul>
-                    <li>암호화폐 → BONDX 변환 시 수수료 부과</li>
-                    <li>크로스체인 브릿지를 통한 다양한 네트워크 지원</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+                <p class="copy">Copyright 2025. BONDX All Right Reserved.</p>
+            </footer>
         </div>
-        <div class="content eng">
-          <div class="container">
-            <h2>Revenue Model</h2>
-            <div class="item_wrap">
-              <div class="left">
-                <div class="item">
-                  <span class="number">01</span>
-                  <div class="text">
-                    <h3>Transaction Fees</h3>
-                    <ul>
-                      <li>
-                        Real-time maximum discount through the user<br />
-                        network on BONDX payments
-                      </li>
-                      <li>
-                        Ultra-low fees compared to traditional financial systems
-                      </li>
-                      <li>
-                        Additional cost-saving opportunities for token holders
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <span class="number">02</span>
-                  <div class="text">
-                    <h3>Premium Services & Memberships</h3>
-                    <ul>
-                      <li>
-                        NFT-based BONDX Credit Card <br />
-                        <span
-                          >VIP benefits (fee exemptions, bonus rewards)</span
-                        >
-                      </li>
-                      <li>
-                        Customized data analysis services<br />
-                        <span>
-                          Providing global payment data for enterprises &
-                          institutions
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="right">
-                <div class="item">
-                  <span class="number">03</span>
-                  <div class="text">
-                    <h3>DeFi-Based Liquidity Provision & Staking Rewards</h3>
-                    <ul>
-                      <li>
-                        BONDX staking program<br />
-                        <span>- Additional rewards for token holders</span>
-                      </li>
-                      <li>
-                        Liquidity pool revenue<br />
-                        <span
-                          >- Participation in DEX & CEX liquidity
-                          provision</span
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <span class="number">04</span>
-                  <div class="text">
-                    <h3>Global Payment Partnerships</h3>
-                    <ul>
-                      <li>
-                        Partnerships with Visa, Mastercard, PayPal for<br />
-                        cryptocurrency payment adoption
-                      </li>
-                      <li>
-                        Collaboration with e-commerce and fintech firms<br />
-                        to expand transaction volume
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <span class="number">05</span>
-                  <div class="text">
-                    <h3>Cross-Chain Bridge & Digital Asset Conversion Fees</h3>
-                    <ul>
-                      <li>
-                        Transaction fees applied when converting <br />
-                        cryptocurrencies to BONDX
-                      </li>
-                      <li>
-                        Cross-chain bridge enabling multi-network <br />
-                        interoperability
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            /** 🎨 배경 이미지 변경 (opacity 활용) **/
+            const backgrounds = document.querySelectorAll('.bg');
+            let currentIndex = 0;
 
-            <div class="m_item_wrap">
-              <div class="left">
-                <div class="item">
-                  <div class="top">
-                    <span class="number">01</span>
-                    <h3>Transaction Fees</h3>
-                  </div>
-                  <div class="text">
-                    <ul>
-                      <li>
-                        Real-time maximum discount through the user<br />
-                        network on BONDX payments
-                      </li>
-                      <li>
-                        Ultra-low fees compared to traditional financial systems
-                      </li>
-                      <li>
-                        Additional cost-saving opportunities for token holders
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="top">
-                    <span class="number">02</span>
-                    <h3>Premium Services & Memberships</h3>
-                  </div>
-                  <div class="text">
-                    <ul>
-                      <li>
-                        NFT-based BONDX Credit Card <br />
-                        <span
-                          >VIP benefits (fee exemptions, bonus rewards)</span
-                        >
-                      </li>
-                      <li>
-                        Customized data analysis services<br />
-                        <span>
-                          Providing global payment data for enterprises &
-                          institutions
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="right">
-                <div class="item">
-                  <div class="top">
-                    <span class="number">03</span>
-                    <h3>DeFi-Based Liquidity Provision & Staking Rewards</h3>
-                  </div>
+            window.addEventListener('scroll', () => {
+                let scrollY = window.scrollY;
 
-                  <div class="text">
-                    <ul>
-                      <li>
-                        BONDX staking program<br />
-                        <span>- Additional rewards for token holders</span>
-                      </li>
-                      <li>
-                        Liquidity pool revenue<br />
-                        <span
-                          >- Participation in DEX & CEX liquidity
-                          provision</span
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="top">
-                    <span class="number">04</span>
-                    <h3>Global Payment Partnerships</h3>
-                  </div>
-                  <div class="text">
-                    <ul>
-                      <li>
-                        Partnerships with Visa, Mastercard, PayPal for<br />
-                        cryptocurrency payment adoption
-                      </li>
-                      <li>
-                        Collaboration with e-commerce and fintech firms<br />
-                        to expand transaction volume
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="top">
-                    <span class="number">05</span>
-                    <h3>Cross-Chain Bridge & Digital Asset Conversion Fees</h3>
-                  </div>
-                  <div class="text">
-                    <ul>
-                      <li>
-                        Transaction fees applied when converting <br />
-                        cryptocurrencies to BONDX
-                      </li>
-                      <li>
-                        Cross-chain bridge enabling multi-network <br />
-                        interoperability
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+                // 🛠 스크롤 위치 기준을 조금 더 자연스럽게 조정
+                let newIndex = 0;
+                if (scrollY >= 200) {
+                    newIndex = 2; // section_bg3
+                } else if (scrollY >= 100) {
+                    newIndex = 1; // section_bg2
+                } else {
+                    newIndex = 0; // section_bg1
+                }
 
-      <!-- 로드맵 -->
-      <section class="roadmap">
-        <img src="/img/roadmap_bg.png" alt="" />
-        <div class="content kor">
-          <div class="container roadmap_wrap">
-            <h2>로드맵</h2>
-            <div class="item_wrap">
-              <div class="item item1">
-                <h3>2025 Q1-Q2</h3>
-                <span class="bar"></span>
-                <h4>개념 설계 & 초기 개발 (BSC 기반)</h4>
-              </div>
-              <div class="item item2">
-                <h3>2025 Q3-Q4</h3>
-                <span class="bar"></span>
-                <h4>MVP 출시 & 베타 테스트</h4>
-              </div>
-              <div class="item item3">
-                <h3>2026 Q1-Q2</h3>
-                <span class="bar"></span>
-                <h4>기능 확장 & 글로벌 파트너십 구축</h4>
-              </div>
-              <div class="item item4">
-                <h3>2026 Q3-Q4</h3>
-                <span class="bar"></span>
-                <h4>자체 메인넷 개발 및 마이그레이션</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content eng">
-          <div class="container roadmap_wrap">
-            <h2>Roadmap</h2>
-            <div class="item_wrap">
-              <div class="item item1">
-                <h3>2025 Q1-Q2</h3>
-                <span class="bar"></span>
-                <h4>
-                  Concept Design & Initial Development <br />(Built on BSC)
-                </h4>
-              </div>
-              <div class="item item2">
-                <h3>2025 Q3-Q4</h3>
-                <span class="bar"></span>
-                <h4>MVP Release & Beta Testing</h4>
-              </div>
-              <div class="item item3">
-                <h3>2026 Q1-Q2</h3>
-                <span class="bar"></span>
+                // 🚀 변경이 있을 때만 실행 (부드럽게 적용)
+                if (newIndex !== currentIndex) {
+                    backgrounds[currentIndex].classList.remove('on');
+                    backgrounds[newIndex].classList.add('on');
+                    currentIndex = newIndex; // 즉시 업데이트
+                }
+            });
 
-                <h4>
-                  Feature Expansion &<br />
-                  Global Partnership Development
-                </h4>
-              </div>
-              <div class="item item4">
-                <h3>2026 Q3-Q4</h3>
-                <span class="bar"></span>
-                <h4>Transition to Proprietary Mainnet</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            // ==== *SCRIPT: LANGUAGE ====
+            const languageButtons = document.querySelectorAll('.language button');
+            const korContent = document.querySelectorAll('.content.kor');
+            const engContent = document.querySelectorAll('.content.eng');
 
-      <footer class="footer">
-        <div class="top">
-          <button type="button" class="contact_btn">Contact</button>
-          <div class="social">
-            <button type="button">
-              <img src="/img/social_i1.png" alt="소셜 아이콘" />
-            </button>
-            <button type="button">
-              <img src="/img/social_i2.png" alt="소셜 아이콘" />
-            </button>
-          </div>
-        </div>
-        <p class="copy">Copyright 2025. BONDX All Right Reserved.</p>
-      </footer>
-    </div>
-  </body>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      /** 🎨 배경 이미지 변경 (opacity 활용) **/
-      const backgrounds = document.querySelectorAll('.bg');
-      let currentIndex = 0;
+            // 초기 컨텐츠 표시 설정 (한국어를 기본값으로)
+            const initializeContent = () => {
+                korContent.forEach((content) => (content.style.display = 'block'));
+                engContent.forEach((content) => (content.style.display = 'none'));
+            };
 
-      window.addEventListener('scroll', () => {
-        let scrollY = window.scrollY;
+            // 언어 전환 함수
+            const switchLanguage = (selectedLang) => {
+                if (selectedLang === 'kor') {
+                    // 한국어 선택 시
+                    korContent.forEach((content) => (content.style.display = 'block'));
+                    engContent.forEach((content) => (content.style.display = 'none'));
+                } else {
+                    // 영어 선택 시
+                    korContent.forEach((content) => (content.style.display = 'none'));
+                    engContent.forEach((content) => (content.style.display = 'block'));
+                }
 
-        // 🛠 스크롤 위치 기준을 조금 더 자연스럽게 조정
-        let newIndex = 0;
-        if (scrollY >= 200) {
-          newIndex = 2; // section_bg3
-        } else if (scrollY >= 100) {
-          newIndex = 1; // section_bg2
-        } else {
-          newIndex = 0; // section_bg1
-        }
+                // 언어 전환 후 애니메이션 재실행
+                // 기존 애니메이션 정리 후 재실행
+                resetAnimations();
+                runAnimations();
+            };
 
-        // 🚀 변경이 있을 때만 실행 (부드럽게 적용)
-        if (newIndex !== currentIndex) {
-          backgrounds[currentIndex].classList.remove('on');
-          backgrounds[newIndex].classList.add('on');
-          currentIndex = newIndex; // 즉시 업데이트
-        }
-      });
+            // 기존 애니메이션 정리 함수
+            const resetAnimations = () => {
+                ScrollTrigger.getAll().forEach((trigger) => trigger.kill()); // 모든 ScrollTrigger 제거
+                gsap.killTweensOf('.ac_inner, .arrow_images, .core .list .item'); // 기존 트윈 제거
+            };
+            // 언어 버튼 클릭 이벤트 처리
+            const handleLanguageClick = (event) => {
+                const selectedLang = event.target.dataset.lang;
 
-      // ==== *SCRIPT: LANGUAGE ====
-      const languageButtons = document.querySelectorAll('.language button');
-      const korContent = document.querySelectorAll('.content.kor');
-      const engContent = document.querySelectorAll('.content.eng');
+                // 버튼 활성화 상태 업데이트
+                languageButtons.forEach((button) => {
+                    // 모든 버튼에서 'on' 클래스 제거
+                    button.classList.remove('on');
+                    // 선택된 버튼에만 'on' 클래스 추가
+                    if (button.dataset.lang === selectedLang) {
+                        button.classList.add('on');
+                    }
+                });
 
-      // 초기 컨텐츠 표시 설정 (한국어를 기본값으로)
-      const initializeContent = () => {
-        korContent.forEach((content) => (content.style.display = 'block'));
-        engContent.forEach((content) => (content.style.display = 'none'));
-      };
+                // 선택된 언어로 컨텐츠 전환
+                switchLanguage(selectedLang);
+            };
 
-      // 언어 전환 함수
-      const switchLanguage = (selectedLang) => {
-        if (selectedLang === 'kor') {
-          // 한국어 선택 시
-          korContent.forEach((content) => (content.style.display = 'block'));
-          engContent.forEach((content) => (content.style.display = 'none'));
-        } else {
-          // 영어 선택 시
-          korContent.forEach((content) => (content.style.display = 'none'));
-          engContent.forEach((content) => (content.style.display = 'block'));
-        }
+            // 언어 선택 버튼에 클릭 이벤트 리스너 추가
+            languageButtons.forEach((button) => {
+                button.addEventListener('click', handleLanguageClick);
+            });
 
-        // 언어 전환 후 애니메이션 재실행
-        // 기존 애니메이션 정리 후 재실행
-        resetAnimations();
-        runAnimations();
-      };
+            // ======== GSAP ScrollTrigger 플러그인 등록
+            gsap.registerPlugin(ScrollTrigger);
 
-      // 기존 애니메이션 정리 함수
-      const resetAnimations = () => {
-        ScrollTrigger.getAll().forEach((trigger) => trigger.kill()); // 모든 ScrollTrigger 제거
-        gsap.killTweensOf('.ac_inner, .arrow_images, .core .list .item'); // 기존 트윈 제거
-      };
-      // 언어 버튼 클릭 이벤트 처리
-      const handleLanguageClick = (event) => {
-        const selectedLang = event.target.dataset.lang;
-
-        // 버튼 활성화 상태 업데이트
-        languageButtons.forEach((button) => {
-          // 모든 버튼에서 'on' 클래스 제거
-          button.classList.remove('on');
-          // 선택된 버튼에만 'on' 클래스 추가
-          if (button.dataset.lang === selectedLang) {
-            button.classList.add('on');
-          }
-        });
-
-        // 선택된 언어로 컨텐츠 전환
-        switchLanguage(selectedLang);
-      };
-
-      // 언어 선택 버튼에 클릭 이벤트 리스너 추가
-      languageButtons.forEach((button) => {
-        button.addEventListener('click', handleLanguageClick);
-      });
-
-      // ======== GSAP ScrollTrigger 플러그인 등록
-      gsap.registerPlugin(ScrollTrigger);
-
-      // 애니메이션 실행 함수
-      const runAnimations = () => {
-        /* ==== *SCRIPT/GSAP: ABOUT ==== */
-        // 모바일에서는 애니메이션 없앰
-        if (window.innerWidth > 900) {
-          gsap.utils.toArray('.ac_inner, .arrow_images').forEach((el) => {
-            gsap.fromTo(
-              el,
-              { x: -30, opacity: 0 },
-              {
-                x: 0,
-                opacity: 1,
-                duration: 0.8,
-                ease: 'power1.out',
-                scrollTrigger: {
-                  trigger: el,
-                  start: 'top bottom',
-                  end: 'bottom center', // 선택 사항
-                  toggleActions: 'play none none none',
-                  once: true,
-                },
-              }
-            );
-          });
-        }
-
-        /* ==== *SCRIPT/GSAP: CORE ==== */
-        // 모바일에서는 애니메이션 없앰
-        gsap.utils.toArray('.core .list').forEach((listEl) => {
-          // item_top 요소는 위에서 아래로 내려오게
-          gsap.fromTo(
-            listEl.querySelectorAll('.item.item_top'),
-            { y: -150, opacity: 0 },
-            {
-              y: 0,
-              opacity: 1,
-              duration: 0.6,
-              ease: 'power1.out',
-              scrollTrigger: {
-                trigger: listEl,
-                start: 'top 70%',
-                toggleActions: 'play none none none',
-                once: true,
-                onEnter: () => {
-                  listEl.querySelectorAll('.item.item_top').forEach((item) => {
-                    item.classList.add('active');
-                  });
-                },
-              },
-            }
-          );
-
-          // item_down 요소는 아래에서 위로 올라오게
-          gsap.fromTo(
-            listEl.querySelectorAll('.item.item_down'),
-            { y: 150, opacity: 0 },
-            {
-              y: 0,
-              opacity: 1,
-              duration: 0.6,
-              ease: 'power1.out',
-              scrollTrigger: {
-                trigger: listEl,
-                start: 'top 70%',
-                toggleActions: 'play none none none',
-                once: true,
-                onEnter: () => {
-                  listEl.querySelectorAll('.item.item_down').forEach((item) => {
-                    item.classList.add('active');
-                  });
-                },
-              },
-            }
-          );
-
-          // item_title 따로 처리
-          gsap.fromTo(
-            listEl.querySelectorAll('.item.item_title'),
-            { y: 0, opacity: 1 }, // 기본 상태
-            {
-              y: -220,
-              opacity: 1,
-              duration: 0.6, // 애니메이션 없이 기본 상태 유지
-              scrollTrigger: {
-                trigger: listEl,
-                start: 'top 70%',
-                toggleActions: 'play none none none',
-                once: true,
-                onEnter: () => {
-                  listEl
-                    .querySelectorAll('.item.item_title')
-                    .forEach((item) => {
-                      item.classList.add('active');
+            // 애니메이션 실행 함수
+            const runAnimations = () => {
+                /* ==== *SCRIPT/GSAP: ABOUT ==== */
+                // 모바일에서는 애니메이션 없앰
+                if (window.innerWidth > 900) {
+                    gsap.utils.toArray('.ac_inner, .arrow_images').forEach((el) => {
+                        gsap.fromTo(
+                            el,
+                            { x: -30, opacity: 0 },
+                            {
+                                x: 0,
+                                opacity: 1,
+                                duration: 0.8,
+                                ease: 'power1.out',
+                                scrollTrigger: {
+                                    trigger: el,
+                                    start: 'top bottom',
+                                    end: 'bottom center', // 선택 사항
+                                    toggleActions: 'play none none none',
+                                    once: true,
+                                },
+                            }
+                        );
                     });
-                },
-              },
-            }
-          );
+                }
+
+                /* ==== *SCRIPT/GSAP: CORE ==== */
+                // 모바일에서는 애니메이션 없앰
+                gsap.utils.toArray('.core .list').forEach((listEl) => {
+                    // item_top 요소는 위에서 아래로 내려오게
+                    gsap.fromTo(
+                        listEl.querySelectorAll('.item.item_top'),
+                        { y: -150, opacity: 0 },
+                        {
+                            y: 0,
+                            opacity: 1,
+                            duration: 0.6,
+                            ease: 'power1.out',
+                            scrollTrigger: {
+                                trigger: listEl,
+                                start: 'top 70%',
+                                toggleActions: 'play none none none',
+                                once: true,
+                                onEnter: () => {
+                                    listEl.querySelectorAll('.item.item_top').forEach((item) => {
+                                        item.classList.add('active');
+                                    });
+                                },
+                            },
+                        }
+                    );
+
+                    // item_down 요소는 아래에서 위로 올라오게
+                    gsap.fromTo(
+                        listEl.querySelectorAll('.item.item_down'),
+                        { y: 150, opacity: 0 },
+                        {
+                            y: 0,
+                            opacity: 1,
+                            duration: 0.6,
+                            ease: 'power1.out',
+                            scrollTrigger: {
+                                trigger: listEl,
+                                start: 'top 70%',
+                                toggleActions: 'play none none none',
+                                once: true,
+                                onEnter: () => {
+                                    listEl.querySelectorAll('.item.item_down').forEach((item) => {
+                                        item.classList.add('active');
+                                    });
+                                },
+                            },
+                        }
+                    );
+
+                    // item_title 따로 처리
+                    gsap.fromTo(
+                        listEl.querySelectorAll('.item.item_title'),
+                        { y: 0, opacity: 1 }, // 기본 상태
+                        {
+                            y: -220,
+                            opacity: 1,
+                            duration: 0.6, // 애니메이션 없이 기본 상태 유지
+                            scrollTrigger: {
+                                trigger: listEl,
+                                start: 'top 70%',
+                                toggleActions: 'play none none none',
+                                once: true,
+                                onEnter: () => {
+                                    listEl.querySelectorAll('.item.item_title').forEach((item) => {
+                                        item.classList.add('active');
+                                    });
+                                },
+                            },
+                        }
+                    );
+                });
+
+                /* ==== *SCRIPT/GSAP: ROADMAP ==== */
+                const bars = gsap.utils.toArray('.roadmap .bar');
+                const items = gsap.utils.toArray('.roadmap .item');
+
+                // 모바일용 BAR 애니메이션 함수 (무한 반복)
+                const startInfiniteBarAnimation = () => {
+                    // 현재 언어에 따라 BAR 요소 선택
+                    const currentLang = document.querySelector('.language button.on').dataset.lang;
+                    const bars =
+                        currentLang === 'kor'
+                            ? document.querySelectorAll('.content.kor .bar') // 한국어 BAR
+                            : document.querySelectorAll('.content.eng .bar'); // 영어 BAR
+
+                    // BAR 요소의 CSS 확인
+                    bars.forEach((bar, index) => {
+                        // console.log(`BAR ${index} 스타일:`, window.getComputedStyle(bar));
+                    });
+
+                    let currentIndex = 0;
+
+                    const animateBar = () => {
+                        // 모든 bar 초기화 (흰색으로 설정)
+                        bars.forEach((bar) => {
+                            gsap.to(bar, {
+                                backgroundColor: 'white',
+                                duration: 0.3,
+                                ease: 'power2.out',
+                            });
+                        });
+
+                        // 현재 인덱스의 bar를 초록색으로 설정
+                        gsap.to(bars[currentIndex], {
+                            backgroundColor: '#57BCA9',
+                            duration: 0.3,
+                            ease: 'power2.out',
+                        });
+
+                        // 다음 인덱스로 이동 (무한 반복)
+                        currentIndex = (currentIndex + 1) % bars.length;
+                    };
+
+                    // 1초마다 애니메이션 반복
+                    setInterval(animateBar, 1000); // 1초마다 animateBar 함수 실행
+                };
+
+                // PC용 BAR 애니메이션 함수 (한 번만 실행되고 마지막 인덱스에서 멈춤)
+                const startBarAnimationForPC = () => {
+                    // 현재 언어에 따라 BAR 요소 선택
+                    const currentLang = document.querySelector('.language button.on').dataset.lang;
+                    const bars =
+                        currentLang === 'kor'
+                            ? document.querySelectorAll('.content.kor .bar') // 한국어 BAR
+                            : document.querySelectorAll('.content.eng .bar'); // 영어 BAR
+
+                    let currentIndex = 0;
+
+                    const animateBar = () => {
+                        // 모든 bar 초기화 (흰색으로 설정)
+                        bars.forEach((bar) => {
+                            gsap.to(bar, {
+                                backgroundColor: 'white',
+                                duration: 0.3,
+                                ease: 'power2.out',
+                            });
+                        });
+
+                        // 현재 인덱스의 bar를 초록색으로 설정
+                        gsap.to(bars[currentIndex], {
+                            backgroundColor: '#57BCA9',
+                            duration: 0.3,
+                            ease: 'power2.out',
+                        });
+
+                        // 다음 인덱스로 이동
+                        currentIndex++;
+
+                        // 마지막 인덱스에서 멈춤
+                        if (currentIndex >= bars.length) {
+                            clearInterval(intervalId); // 인터벌 종료
+                        }
+                    };
+
+                    // 1초마다 애니메이션 반복
+                    const intervalId = setInterval(animateBar, 1000); // 1초마다 animateBar 함수 실행
+                };
+
+                // 아이템 펼쳐지는 애니메이션 (데스크탑에서만 실행)
+                if (window.innerWidth > 900) {
+                    // 900px 이상일 때만 실행
+                    gsap.fromTo(
+                        items,
+                        { opacity: 1, y: 0 },
+                        {
+                            opacity: 1,
+                            y: (i) => [50, -50, -150, -250, 50, -50, -150, -250][i], // 각각 지정된 위치로 이동
+                            duration: 1,
+                            ease: 'power2.out',
+                            delay: 0.2, // 0.2초 대기 후 시작
+                            scrollTrigger: {
+                                trigger: '.roadmap',
+                                start: 'top top', // 📌 뷰포트 하단에서 시작
+                                end: 'bottom 20%', // 📌 뷰포트 상단에서 끝
+                                toggleActions: 'play none none none',
+                                onEnter: () => {
+                                    // 아이템이 펼쳐진 후 BAR 애니메이션 시작 (PC에서는 한 번만 실행)
+                                    startBarAnimationForPC();
+                                },
+                            },
+                        }
+                    );
+                } else {
+                    // 모바일에서는 BAR 애니메이션만 실행
+                    if (window.innerWidth <= 700) {
+                        startInfiniteBarAnimation(); // 700px 이하에서는 무한 반복
+                    }
+                }
+            };
+
+            // 페이지 로드 시 초기 설정 실행
+            initializeContent();
+            runAnimations(); // 초기 애니메이션 실행
         });
-
-        /* ==== *SCRIPT/GSAP: ROADMAP ==== */
-        const bars = gsap.utils.toArray('.roadmap .bar');
-        const items = gsap.utils.toArray('.roadmap .item');
-
-        // 모바일용 BAR 애니메이션 함수 (무한 반복)
-        const startInfiniteBarAnimation = () => {
-          // 현재 언어에 따라 BAR 요소 선택
-          const currentLang = document.querySelector('.language button.on')
-            .dataset.lang;
-          const bars =
-            currentLang === 'kor'
-              ? document.querySelectorAll('.content.kor .bar') // 한국어 BAR
-              : document.querySelectorAll('.content.eng .bar'); // 영어 BAR
-
-          // BAR 요소의 CSS 확인
-          bars.forEach((bar, index) => {
-            // console.log(`BAR ${index} 스타일:`, window.getComputedStyle(bar));
-          });
-
-          let currentIndex = 0;
-
-          const animateBar = () => {
-            // 모든 bar 초기화 (흰색으로 설정)
-            bars.forEach((bar) => {
-              gsap.to(bar, {
-                backgroundColor: 'white',
-                duration: 0.3,
-                ease: 'power2.out',
-              });
-            });
-
-            // 현재 인덱스의 bar를 초록색으로 설정
-            gsap.to(bars[currentIndex], {
-              backgroundColor: '#57BCA9',
-              duration: 0.3,
-              ease: 'power2.out',
-            });
-
-            // 다음 인덱스로 이동 (무한 반복)
-            currentIndex = (currentIndex + 1) % bars.length;
-          };
-
-          // 1초마다 애니메이션 반복
-          setInterval(animateBar, 1000); // 1초마다 animateBar 함수 실행
-        };
-
-        // PC용 BAR 애니메이션 함수 (한 번만 실행되고 마지막 인덱스에서 멈춤)
-        const startBarAnimationForPC = () => {
-          // 현재 언어에 따라 BAR 요소 선택
-          const currentLang = document.querySelector('.language button.on')
-            .dataset.lang;
-          const bars =
-            currentLang === 'kor'
-              ? document.querySelectorAll('.content.kor .bar') // 한국어 BAR
-              : document.querySelectorAll('.content.eng .bar'); // 영어 BAR
-
-          let currentIndex = 0;
-
-          const animateBar = () => {
-            // 모든 bar 초기화 (흰색으로 설정)
-            bars.forEach((bar) => {
-              gsap.to(bar, {
-                backgroundColor: 'white',
-                duration: 0.3,
-                ease: 'power2.out',
-              });
-            });
-
-            // 현재 인덱스의 bar를 초록색으로 설정
-            gsap.to(bars[currentIndex], {
-              backgroundColor: '#57BCA9',
-              duration: 0.3,
-              ease: 'power2.out',
-            });
-
-            // 다음 인덱스로 이동
-            currentIndex++;
-
-            // 마지막 인덱스에서 멈춤
-            if (currentIndex >= bars.length) {
-              clearInterval(intervalId); // 인터벌 종료
-            }
-          };
-
-          // 1초마다 애니메이션 반복
-          const intervalId = setInterval(animateBar, 1000); // 1초마다 animateBar 함수 실행
-        };
-
-        // 아이템 펼쳐지는 애니메이션 (데스크탑에서만 실행)
-        if (window.innerWidth > 900) {
-          // 900px 이상일 때만 실행
-          gsap.fromTo(
-            items,
-            { opacity: 1, y: 0 },
-            {
-              opacity: 1,
-              y: (i) => [50, -50, -150, -250, 50, -50, -150, -250][i], // 각각 지정된 위치로 이동
-              duration: 1,
-              ease: 'power2.out',
-              delay: 0.2, // 1초 대기 후 시작
-              scrollTrigger: {
-                trigger: '.roadmap',
-                start: 'top 80%', // 📌 뷰포트 하단에서 시작
-                end: 'bottom 20%', // 📌 뷰포트 상단에서 끝
-                toggleActions: 'play none none none',
-                onEnter: () => {
-                  // 아이템이 펼쳐진 후 BAR 애니메이션 시작 (PC에서는 한 번만 실행)
-                  startBarAnimationForPC();
-                },
-              },
-            }
-          );
-        } else {
-          // 모바일에서는 BAR 애니메이션만 실행
-          if (window.innerWidth <= 700) {
-            startInfiniteBarAnimation(); // 700px 이하에서는 무한 반복
-          }
-        }
-      };
-
-      // 페이지 로드 시 초기 설정 실행
-      initializeContent();
-      runAnimations(); // 초기 애니메이션 실행
-    });
-  </script>
+    </script>
 </html>
