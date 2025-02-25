@@ -151,6 +151,9 @@ body {
     margin-bottom: 26px;
     line-height: 150%;
 }
+.hero .kor p {
+    line-height: 30px;
+}
 
 /* 다운로드 버튼 */
 .hero button {
