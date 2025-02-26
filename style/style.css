@@ -33,11 +33,13 @@ body {
     color: var(--bs-white);
     line-height: 30px;
 }
+
 .container {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
+
 .about .container {
     max-width: 1500px;
     width: 100%;
@@ -45,8 +47,8 @@ body {
 
 /* ====================== 헤더 HEADER ====================== */
 /* 
-*STYLE: 헤더 스타일 
-*상단에 로고와 언어 선택 요소 포함 */
+  *STYLE: 헤더 스타일 
+  *상단에 로고와 언어 선택 요소 포함 */
 .header {
     width: 100%;
     padding: 80px 0 0;
@@ -80,9 +82,28 @@ body {
     font-weight: 600;
     z-index: 1;
 }
+.header .language .lang_box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: var(--fs-16);
+    font-weight: 600;
+    z-index: 1;
+}
 
 .header button.on {
     color: var(--bs-green);
+}
+.header button {
+    color: #c1c1c1;
+}
+.header a.wallet_a {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 20px;
+    border-radius: 26px;
+    line-height: 100%;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* ======================  HERO  ====================== */
@@ -90,11 +111,13 @@ body {
 .hero {
     margin-bottom: 170px; /* 하단 여백 */
 }
+
 .hero .banner {
     width: 100%;
     position: relative;
     padding: 400px 0;
 }
+
 .hero .banner .bg {
     width: 100%;
     position: absolute;
@@ -105,12 +128,15 @@ body {
     opacity: 0;
     transition: opacity 0.4s ease-out;
 }
+
 .hero .banner .bg1 {
     background: url('../img//section_bg1.png') no-repeat center/cover;
 }
+
 .hero .banner .bg2 {
     background: url('../img//section_bg2.png') no-repeat center/cover;
 }
+
 .hero .banner .bg3 {
     background: url('../img//section_bg3.png') no-repeat center/cover;
 }
@@ -118,9 +144,11 @@ body {
 .bg.bg1.on {
     opacity: 1;
 }
+
 .bg.bg2.on {
     opacity: 1;
 }
+
 .bg.bg3.on {
     opacity: 1;
 }
@@ -151,8 +179,11 @@ body {
     margin-bottom: 26px;
     line-height: 150%;
 }
+.hero p br.m_br {
+    display: none;
+}
 .hero .kor p {
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 
 /* 다운로드 버튼 */
@@ -220,6 +251,7 @@ body {
 .about img.ac_img {
     width: 144px;
 }
+
 .about img.m_ac_img {
     display: none;
 }
@@ -303,6 +335,7 @@ body {
     align-items: center;
     margin-bottom: 34px;
 }
+
 .stack .title span {
     display: block;
     width: 300px;
@@ -310,42 +343,48 @@ body {
     background: linear-gradient(to right, #000, var(--bs-green));
     margin-right: 10px;
 }
+
 .stack .title h2 {
     font-size: var(--fs-22);
     font-weight: 600;
 }
+
 .stack .way {
     margin-left: 310px;
     display: flex;
     align-items: center;
 }
+
 .stack .way p {
     text-align: center;
     font-size: var(--fs-22);
     font-weight: 500;
 }
-.stack .way img {
-    /* width: 300px; */
-}
+
 .stack .way_img1 {
     margin: 0 43px 0 16px;
     width: 300px;
     height: 199px;
 }
+
 .stack .way_img1_m {
     display: none;
 }
+
 .stack .way_img2 {
     margin: 0 39px 0 20px;
     width: 300px;
     height: 249px;
 }
+
 .stack .way_img2_m {
     display: none;
 }
+
 .stack .eng .way_img1 {
     margin: 0 5px 0 16px;
 }
+
 .stack .eng .way_img2 {
     margin: 0 5px 0 0;
 }
@@ -355,6 +394,7 @@ body {
 .m_core {
     display: none;
 }
+
 .core {
     background: url('../img/core_bg.png') no-repeat center/cover;
     margin: 0 auto;
@@ -362,6 +402,7 @@ body {
     justify-content: center;
     margin-bottom: 240px;
 }
+
 .core .list {
     display: flex;
     align-items: normal;
@@ -374,9 +415,11 @@ body {
     color: #fff;
     height: 630px;
 }
+
 .core .m_list {
     display: none;
 }
+
 .core .list .item {
     width: 33.333%;
     text-align: center;
@@ -396,21 +439,25 @@ body {
     flex-direction: column;
     position: relative;
 }
+
 .core .list .item.item_title .core_con {
     transition: transform 0.6s ease-out;
     transform: translateY(0px);
 }
+
 .core .list .item .core_con h3 {
     font-weight: 600;
 
     font-size: var(--fs-22);
     margin-bottom: 15px;
 }
+
 .core .list .item .core_con h2 {
     font-weight: 500;
     font-size: var(--fs-30);
     margin-bottom: 10px;
 }
+
 .core .list .item .core_con p {
     font-weight: 400;
     font-size: var(--fs-20);
@@ -422,6 +469,7 @@ body {
     transform: translateY(-150px);
     transition: transform 0.6s ease-out, opacity 0.6s ease-out;
 }
+
 .core .list .item.item_down .core_con {
     opacity: 0;
     transform: translateY(150px);
@@ -434,57 +482,58 @@ body {
     transform: translateY(0);
     opacity: 1;
 }
-.core .list .item.item_title.active .core_con {
-    /* transform: translateY(-220px); */
-}
 
 /* ======================  REVENUE  ====================== */
 /* *STYLE: 수익 모델 섹션 스타일 */
-.revenue {
-}
 .revenue h2 {
     font-size: var(--fs-30);
     font-weight: 500;
 }
+
 .revenue .item_wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 70px;
 }
+
 .revenue .m_item_wrap {
     display: none;
 }
+
 .revenue .left {
     display: flex;
     flex-direction: column;
     gap: 70px;
 }
+
 .revenue .right {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
 .revenue .item {
     display: flex;
     gap: 15px;
 }
+
 .revenue .number {
     font-size: var(--fs-100);
     font-weight: 300;
-    background: linear-gradient(135deg, var(--bs-black), var(--bs-white));
+    background: linear-gradient(135deg, var(--bs-black) 10%, var(--bs-white));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: normal;
 }
-.revenue .text {
-}
+
 .revenue .text span {
     display: block;
     color: #ddd;
     font-size: 18px;
     font-weight: 400;
 }
+
 .revenue h3 {
     margin-top: 60px;
     /* font-size: var(--fs-22); */
@@ -493,8 +542,7 @@ body {
     color: var(--bs-green);
     margin-bottom: 10px;
 }
-.revenue .text ul {
-}
+
 .revenue .text li {
     list-style: disc;
     margin-bottom: 15px;
@@ -502,6 +550,7 @@ body {
     margin-left: 20px;
     font-size: 20px;
 }
+
 .revenue .text li::marker {
     color: var(--bs-green); /* 원하는 색상 지정 */
 }
@@ -512,35 +561,39 @@ body {
     position: relative;
     margin-bottom: 280px;
 }
+
 .roadmap .roadmap_wrap {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* width: 100%; */
 }
+
 .roadmap img {
     width: 100%;
 }
+
 .roadmap h2 {
     font-size: var(--fs-30);
     font-weight: 500;
 }
+
 .roadmap .item_wrap {
     display: flex;
     /* align-items: center; */
     text-align: center;
     margin-top: 290px;
 }
+
 .roadmap .item {
     width: 25%;
 }
+
 .roadmap .item h3 {
     font-size: var(--fs-22);
     font-weight: 500;
 }
-.roadmap .item img {
-}
+
 .roadmap .item h4 {
     font-size: var(--fs-20);
     font-weight: 400;
@@ -552,74 +605,7 @@ body {
     height: 10px;
     display: block;
     margin: 15px 0;
-    /* border-radius: 2px; */
 }
-/* .roadmap .content .item_wrap .item1.active {
-    transform: translateY(200%);
-}
-.roadmap .content .item_wrap .item2.active {
-    transform: translateY(75%);
-}
-.roadmap .content .item_wrap .item3.active {
-    transform: translateY(-75%);
-}
-.roadmap .content .item_wrap .item4.active {
-    transform: translateY(-200%);
-}
-
-@keyframes colorChange {
-    0% {
-        background-color: white;
-        box-shadow: 0px 0px 5px #fff;
-        box-shadow: none;
-    }
-    20% {
-        background-color: #57bca9;
-        box-shadow: 0px 0px 5px #57bca9;
-    }
-    45% {
-        background-color: #57bca9;
-        box-shadow: 0px 0px 5px #57bca9;
-    }
-    100% {
-        background-color: white;
-        box-shadow: none;
-    }
-}
-/* item4용 새로운 애니메이션 추가 */
-/* @keyframes colorChangeLast {
-    0% {
-        background-color: white;
-        box-shadow: 0px 0px 5px #fff;
-        box-shadow: none;
-    }
-    50%,
-    100% {
-        background-color: #57bca9;
-        box-shadow: 0px 0px 5px #57bca9;
-    }
-} */
-
-/* active가 추가된 순서대로 색상 변화 (delay로 처리) */
-/* .roadmap .content .item_wrap .item.active .bar {
-    animation: colorChange 6s ease-out;
-}
-.roadmap .content .item_wrap .item1.active .bar {
-    animation-delay: 0s;
-}
-
-.roadmap .content .item_wrap .item2.active .bar {
-    animation-delay: 3s;
-}
-
-.roadmap .content .item_wrap .item3.active .bar {
-    animation-delay: 6s;
-}
-
-.roadmap .content .item_wrap .item4.active .bar {
-    animation: colorChangeLast 3s ease-out forwards;
-    animation-delay: 9s;
-} */
 
 /* ======================  FOOTER  ====================== */
 /* *STYLE: 푸터 섹션 스타일 */
@@ -629,9 +615,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-.footer .top {
-}
-.footer .top button.contact_btn {
+
+.footer .top a.contact_btn {
+    display: block;
     font-size: var(--fs-20);
     font-weight: 500;
     background: var(--bs-green);
@@ -640,6 +626,7 @@ body {
     margin-bottom: 40px;
     line-height: 10px;
 }
+
 .footer .social {
     display: flex;
     justify-content: center;
@@ -647,12 +634,16 @@ body {
     gap: 30px;
     margin-bottom: 160px;
 }
-.footer .social button {
+
+.footer .social a {
+    display: block;
     padding: 5px 10px;
 }
-.footer .social button img {
+
+.footer .social a img {
     width: 30px;
 }
+
 .footer .copy {
     font-size: var(--fs-16);
     font-weight: 300;
@@ -660,6 +651,7 @@ body {
     margin-bottom: 80px;
 }
 
+/* ============== *MEDIASTYLE: 1024 이하 */
 @media (max-width: 1024px) {
     :root {
         --fs-16: 0.9rem; /* 14.4px */
@@ -677,7 +669,8 @@ body {
         --fs-40: 2.25rem; /* 36px */
     }
 }
-/* 모바일 (767px 이하) */
+
+/* ============== *MEDIASTYLE: 767px 이하 */
 @media (max-width: 767px) {
     :root {
         --fs-16: 0.8rem; /* 12.8px */
@@ -695,6 +688,8 @@ body {
         --fs-40: 2rem; /* 32px */
     }
 }
+
+/* ============== *MEDIASTYLE: 1800px 이하 */
 @media (max-width: 1800px) {
     .container {
         width: 90%;
@@ -748,11 +743,9 @@ body {
     .core .list .item.item_down .core_con {
         transform: translateY(7.8125vw);
     }
-
-    .core .list .item.item_title.active .core_con {
-        /* transform: translateY(-11.4583vw); */
-    }
 }
+
+/* ============== *MEDIASTYLE: 1540px 이하 */
 @media (max-width: 1540px) {
     .about .arrow_images {
         margin-bottom: 2.3vw;
@@ -791,8 +784,8 @@ body {
         font-size: 18px;
     }
     /* .core .list .item .core_con p br {
-    display: none;
-  } */
+      display: none;
+    } */
     .core .list {
         padding: 0 45px;
     }
@@ -803,6 +796,8 @@ body {
         font-size: 16px;
     }
 }
+
+/* ============== *MEDIASTYLE: 1330px 이하 */
 @media (max-width: 1330px) {
     .core .list .item.item_top.active .core_con,
     .core .list .item.item_down.active .core_con {
@@ -812,10 +807,9 @@ body {
         font-size: 12px;
     }
 }
+
+/* ============== *MEDIASTYLE: 900px 이하 */
 @media (max-width: 900px) {
-    body {
-        overflow-x: hidden;
-    }
     .container {
         width: 100%;
         padding: 0 25px;
@@ -834,9 +828,14 @@ body {
     .hero p {
         font-size: 18px;
         padding: 0 25px;
+        margin-bottom: 5px;
+    }
+    .hero p br.m_br {
+        display: block;
     }
     .hero button img.download {
         width: 24px;
+        margin-right: 0;
     }
     .hero button span {
         font-size: 16px;
@@ -894,6 +893,8 @@ body {
     .about h5 {
         font-size: 12px;
         font-weight: 400;
+        line-height: normal;
+        margin-top: 3px;
     }
     .about .ai_solution {
         margin: 20px 15px 0;
@@ -960,6 +961,7 @@ body {
 
     .revenue .number {
         font-size: 30px;
+        line-height: 100%;
     }
     .revenue .item_wrap {
         display: none;
@@ -983,15 +985,17 @@ body {
         justify-content: flex-start;
         gap: 5px;
         margin-bottom: 10px;
+        line-height: 100%;
     }
     .revenue h3 {
         margin: 0;
         font-size: 14px;
         font-weight: 600;
         color: var(--bs-green);
+        padding-bottom: 2px;
     }
     .revenue .text li {
-        margin-left: 20px;
+        margin-left: 13px;
         font-size: 12px;
         font-weight: 300;
     }
@@ -1091,7 +1095,7 @@ body {
         align-items: center;
         justify-content: center;
     }
-    .footer .top button.contact_btn {
+    .footer .top a.contact_btn {
         padding: 10px 20px;
         font-size: 14px;
         font-weight: 400;
@@ -1100,9 +1104,7 @@ body {
     .footer .social {
         margin-bottom: 17px;
     }
-    .footer .social button img {
-        min-width: 25px;
-    }
+
     .footer .copy {
         font-size: 10px;
         font-weight: 300;
@@ -1116,6 +1118,7 @@ body {
     .about .ac_inner {
         transform: none;
     }
+
     /* ======================  mobile CORE  ====================== */
     /* *STYLE: 핵심  섹션 스타일 */
     .m_core {
@@ -1189,6 +1192,7 @@ body {
     }
 }
 
+/* ============== *MEDIASTYLE: 760px 이하 */
 @media (max-width: 760px) {
     body {
         line-height: 140%;
@@ -1200,6 +1204,8 @@ body {
         padding: 100px 50px;
     }
 }
+
+/* ============== *MEDIASTYLE: 601px 이하 */
 @media (max-width: 601px) {
     .m_core {
         padding: 300px 0;
@@ -1227,8 +1233,35 @@ body {
         margin-bottom: 10px;
         line-height: 120%;
     }
+    .header .language {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        gap: 5px;
+        font-size: var(--fs-16);
+        font-weight: 600;
+        z-index: 1;
+    }
+    .header .language a.wallet_a {
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .header .language .lang_box {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: var(--fs-16);
+        font-weight: 600;
+        z-index: 1;
+    }
 }
+
+/* ============== *MEDIASTYLE: 445px 이하 */
 @media (max-width: 445px) {
+    .header {
+        padding: 8.1667vw 0;
+    }
     .revenue h2 {
         margin-top: 100px;
     }
@@ -1265,6 +1298,9 @@ body {
     .about h3 {
         margin-bottom: 10px;
     }
+    .about .ai_solution h3 {
+        font-weight: 500;
+    }
     .about p {
         word-break: keep-all;
         margin-bottom: 25px;
@@ -1289,7 +1325,10 @@ body {
     }
     .roadmap .content .item_wrap .item .bar {
         height: 6px;
-        margin: 10px 0;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 75%;
     }
     .roadmap .item h3 {
         line-height: 100%;
@@ -1333,7 +1372,7 @@ body {
         font-size: 12px;
         line-height: 160%;
     }
-    .revenue .item:last-child .top h3 {
+    .revenue .item .top h3.int_12 {
         font-size: 12px;
     }
     .revenue .left {
@@ -1341,5 +1380,11 @@ body {
     }
     .revenue .right {
         gap: 0px;
+    }
+    .footer .social a img {
+        width: 25px;
+    }
+    .footer .social {
+        margin-bottom: 5px;
     }
 }
